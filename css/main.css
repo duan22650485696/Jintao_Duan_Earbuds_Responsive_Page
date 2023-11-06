@@ -1,10 +1,132 @@
+.hidden {display: none;}
+
+#header-logo {
+    background-color: burlywood;
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+}
+
+#ham-menu {
+    width: 40px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+#main-con {background-color: #292929;}
+
 #main-header {
     background-color: #E30000;
-    height: 110px;
+    height: 80px;
 }
 
 #earbuds-banner-con {
     background-color: aqua;
     height: 179px;
     margin-top: 60px;
+}
+
+#video-con {
+    background-color: antiquewhite;
+    height: 179px;
+    margin-top: 60px;
+}
+
+/* buttons */
+
+.button{
+    background-color: #E30000; 
+    height: 35px;
+    margin-top: 80px;
+}
+
+
+#earbuds-tittle {
+    margin-top: 40px;
+}
+
+.ear-img-con {
+    background-color: brown;
+    height: 202px;
+    margin-top: 80px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 80px;
+    color: white;
+}
+
+#earbuds-xry-img {
+    height: 182px;
+    background-color: cadetblue;
+    margin-top: 60px;
+}
+
+#earbuds-brand-img{
+    height: 105px;
+    background-color: darkslateblue;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+#main-footer{
+    background-color: #E30000;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#footer-logo{
+    background-color: aliceblue; 
+    height: 65px;
+    width: 65px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+@media screen and (min-width: 768px){
+    #main-header {
+        height: 130px;
+    }
+
+    #header-logo {
+        height: 65px;
+        width: 65px;
+        margin-top: 28px;
+        margin-left: 20px;
+    }
+    
+    #ham-menu {
+        width: 40px;
+        margin-left: 30px;
+        margin-top: 15px;
+    }
+    
+
+    #ham-menu{display: none;}
+
+    #earbuds-banner-con{height: 583px;}
+
+    #video-con {height: 583px;}
+
+    .button {height: 55px;}
+
+    .ear-img-con {height: 302px; margin-top: 100px;}
+    #img2-tittle {margin-top: 200px;}
+
+    #earbuds-xry-img {height: 500px; margin-top: 120px;}
+
+    #earbuds-brand-img {height: 250px; margin-top: 120px; margin-bottom: 100px;}
+
+    #main-footer {height: 180px;}
+
+    #footer-logo {
+        height: 80px;
+        width: 80px;
+        margin-bottom: 20px;
+    }
+   
 }
