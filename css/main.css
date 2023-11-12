@@ -1,17 +1,36 @@
+
 .hidden {display: none;}
 
-#header-logo {
-    background-color: burlywood;
-    height: 50px;
-    width: 50px;
-    margin-top: 10px;
+ul li {
+    list-style: none;
 }
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav{
+    background-color: #9d3232;
+}
+
+nav ul li {margin-top: 15px; }
+#header-logo {
+    height: 45px;
+    width: 45px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.main-nav { display: none;}
+
 
 #ham-menu {
     width: 40px;
     margin-left: 30px;
     margin-top: 15px;
 }
+
 
 #main-con {background-color: #292929;}
 
@@ -20,16 +39,19 @@
     height: 80px;
 }
 
-#earbuds-banner-con {
-    background-color: aqua;
-    height: 179px;
-    margin-top: 60px;
+#earbuds_animation-con {
+    margin-top: 40px;
+
 }
 
+#explode-view {
+    max-width: 100%;
+    /* width: 100vw; */
+  }/*# sourceMappingURL=main.css.map */
+
 #video-con {
-    background-color: antiquewhite;
-    height: 179px;
-    margin-top: 60px;
+    
+    margin-bottom: 100px;
 }
 
 /* buttons */
@@ -37,7 +59,14 @@
 .button{
     background-color: #E30000; 
     height: 35px;
-    margin-top: 80px;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
 }
 
 
@@ -46,8 +75,6 @@
 }
 
 .ear-img-con {
-    background-color: brown;
-    height: 202px;
     margin-top: 80px;
 }
 
@@ -58,16 +85,15 @@ h2 {
 }
 
 #earbuds-xry-img {
-    height: 182px;
+    height: 200px;
     background-color: cadetblue;
     margin-top: 60px;
 }
 
 #earbuds-brand-img{
-    height: 105px;
-    background-color: darkslateblue;
     margin-top: 60px;
     margin-bottom: 60px;
+    text-align: center;
 }
 
 #main-footer{
@@ -80,14 +106,25 @@ h2 {
 
 
 #footer-logo{
-    background-color: aliceblue; 
-    height: 65px;
-    width: 65px;
+    height: 60px;
+    width: 60px;
     text-align: center;
-    margin-top: 30px;
+    margin-left: 40px;
+    
 }
 
+#social-media a img{
+    width: 35px;
+    margin-top: 100px;
+    
+
+
+}
+
+
+
 @media screen and (min-width: 768px){
+    h2 {font-size: 40px;}
     #main-header {
         height: 130px;
     }
@@ -105,28 +142,29 @@ h2 {
         margin-top: 15px;
     }
     
+    
 
     #ham-menu{display: none;}
 
-    #earbuds-banner-con{height: 583px;}
+    #earbuds-banner-con{}
 
-    #video-con {height: 583px;}
+    #video-con {margin-bottom: 120px;}
 
     .button {height: 55px;}
 
-    .ear-img-con {height: 302px; margin-top: 100px;}
+    .ear-img-con {margin-top: 170px;}
     #img2-tittle {margin-top: 200px;}
 
     #earbuds-xry-img {height: 500px; margin-top: 120px;}
 
-    #earbuds-brand-img {height: 250px; margin-top: 120px; margin-bottom: 100px;}
+    #earbuds-brand-img { margin-top: 120px; margin-bottom: 100px;}
 
     #main-footer {height: 180px;}
 
     #footer-logo {
         height: 80px;
         width: 80px;
-        margin-bottom: 20px;
+        
     }
    
 }

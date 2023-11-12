@@ -14,32 +14,44 @@
     <header id="main-header" class="grid-con">
         <!-- Logo -->
         <div id="header-logo">
+            <a href="#"><img src="images/Final_earbuds_logo.png" alt="Logo"></a>
+        </div>
+        <nav class="main-nav col-start-4 col-end-4">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+            </ul>
+        </nav>
+        <div id="ham-menu" class="col-start-4 col-end-5">
+            <a href="#" id="hamburger-icon"><img src="images/icons8-menu-500.png" alt="hamburger menu"></a>
+
             
         </div>
-
-        <div id="ham-menu" class="col-start-4 col-end-5">
-         <a href="#"><img src="images/icons8-menu-500.png" alt="hambuger menu"></a>
-        </div>
+        
      </header>
      <main>
         <div class="grid-con" id="main-con">
-            <section id="earbuds-banner-con" class="col-span-full m-col-span-full">
+            <section id="earbuds_animation-con" class="col-span-full m-col-span-full">
                 <h2 class="hidden">earbuds banner</h2>
+                <canvas id="explode-view"></canvas> 
             </section>
     
             <section id="video-con" class="col-span-full m-col-span-full">
                 <h2 class="hidden">earbuds video</h2>
+                <a href="#">
+                    <img src="images/Jintao_Duan_Earbuds_01.jpg" alt="">
+                </a>
             </section>
     
             <!-- buttons -->
             <div class="button col-start-1 col-end-2 m-col-start-2 m-col-end-4">
-                
+                <a href="#">STRUCTURE</a>
             </div>
             <div class="button col-start-2 col-end-3 m-col-start-4 m-col-end-6">
-                
+                <a href="#">STRUCTURE</a>
             </div>
             <div class="button col-start-3 col-end-4 m-col-start-6 m-col-end-8">
-                
+                <a href="#">STRUCTURE</a>
             </div>
     
             <section id="earbuds-tittle" class="col-span-full">
@@ -49,16 +61,18 @@
             <!-- earbuds-feature-images -->
             <!-- earbuds-hotspots -->
             <div id="earbuds-hotspot-con" class="ear-img-con col-span-full m-col-start-3 m-col-end-11">
-    
+                <a href="#"><img src="images/earbuds-with-logo-NC.jpg" alt=""></a>
             </div>
-            
-            <div class="ear-img-con col-span-full m-col-start-2 m-col-end-7">
-    
+
+            <h2 id="img2-tittle" class="col-span-full m-col-span-full" >ALWAYS STAY CLOSE TO THE MUSIC EVEN FOR 24 HOURS</h2>
+
+            <div class="ear-img-con col-span-full m-col-span-full">
+                <a href="#"><img src="images/earbuds-with-icon.jpg" alt=""></a>
             </div>
     
-            <h2 id="img2-tittle" class="col-span-full m-col-start-2 m-col-end-6" >ALWAYS STAY CLOSE TO THE MUSIC EVEN FOR 24 HOURS</h2>
-            <div class="ear-img-con col-span-full m-col-start-7 m-col-end-12">
-    
+            <h2 id="img2-tittle" class="col-span-full m-col-span-full" >ALWAYS STAY CLOSE TO THE MUSIC EVEN FOR 24 HOURS</h2>
+            <div class="ear-img-con col-span-full m-col-span-full">
+                <a href="#"><img src="images/earbuds_takeout.jpg" alt=""></a>
             </div>
     
             <!-- xray-img -->
@@ -69,16 +83,26 @@
             <!-- brand-img -->
             <section id="earbuds-brand-img" class="col-span-full">
                 <h2 class="hidden">brand-img</h2>
+                <a href="#"><img src="images/Temp-logo.jpg" alt=""></a>
             </section>
         </div>
      </main>
      
 
-    <footer id="main-footer" class="grid-con"> 
+    <footer id="main-footer" class="grid-con">
+        
         <div id="footer-logo">
-            
+            <a href="#"><img src="images/Final_earbuds_logo.png" alt="footer-logo"></a>
+        </div>
+        <!--social media icon-->
+        <div id="socia-media">
+            <a href="#"><img src="images/facebook.png" alt="facebook"></a>
+            <a href="#"><img src="images/facebook.png" alt="facebook"></a>
+        </div>
+        
         </div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/ScrollTrigger.js"></script>
     <script src="js/main.js"></script>
-</body>
 </html>
