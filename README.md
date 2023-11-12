@@ -3,7 +3,6 @@
 # Jintao_Magnetic Audio
 
 # This repository contains:
-HTML, CSS
 
 JS and SASS code will be added in next version
 
