@@ -5,25 +5,19 @@ html {
 
 .hidden {display: none;}
 
-ul li {
-    list-style: none;
-    text-align: center;
-}
-
-ul li a {
-    text-decoration: none;
-    color: white;
-}
-
-nav {
-  margin-left: 50px;
-}
-
 #header-logo {
     height: 45px;
     width: 45px;
     margin-top: 15px;
     margin-left: 10px;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
 }
 
 #main-con {background-color: #292929;}
@@ -267,7 +261,14 @@ model-viewer > #ar-prompt > img {
 
 
 @media screen and (min-width: 768px){
-    h2 {font-size: 40px;}
+  header a {
+  
+    margin-top: 40px;
+    font-size: 30px;
+  }
+    h2 {
+      font-size: 40px;
+    }
     nav {
       margin-left: 150px;
     }
@@ -339,7 +340,7 @@ model-viewer > #ar-prompt > img {
       height: 50vh;
     }
     .image-right {
-      background: url(../images/xray/org_earbuds.jpg) no-repeat;
+      background: url(../images/xray/xray_earbuds.jpg) no-repeat;
       background-size: cover;
     }
 
