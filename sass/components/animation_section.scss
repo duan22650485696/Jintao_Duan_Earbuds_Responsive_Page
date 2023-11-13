@@ -1,0 +1,17 @@
+#earbuds_animation-con {
+    margin-top: 70px;
+    max-height: fit-content;
+    background-image: url(../images/coal.jpg);
+    background-size: cover;
+}
+
+
+#explode-view {
+    max-width: 100%;
+  }
+
+#banner-con {margin-bottom: 70px;}
+
+@media screen and (min-width: 768px){
+    #earbuds_animation-con img { margin-left: 60px;}
+}
