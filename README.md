@@ -14,3 +14,5 @@ JS and SASS code will be added in next version
 
 2023 11-12 23:55 updated the final version of earbuds webpage
 
+2023 11-13 10:30 fixed xray container height problem
+
