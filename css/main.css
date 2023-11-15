@@ -52,9 +52,31 @@ html {
     height: 80px;
 }
 
+.float-con {
+	animation: float 2.5s ease-in-out infinite;
+  margin-top: 20px;
+  color: white;
+}
+
+.float {
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+}
+
+@keyframes float {
+  50% {
+    transform: translatey(20px);
+  }
+}
+
+h1 {
+ text-align: center;
+}
+
+
 #earbuds_animation-con {
-    margin-top: 40px;
-    padding-top: 100px;
+    margin-top: 30px;
 }
 
 #explode-view {
