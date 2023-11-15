@@ -1,6 +1,6 @@
-# Jintao_Duan_Earbuds_Responsive_Page
+# Magnetic_Earbuds_Promotional_Page
 
-# Jintao_Magnetic Audio
+# Magnetic Audio https://magnetic-audio-ma100.netlify.app
 
 # This repository contains:
 
