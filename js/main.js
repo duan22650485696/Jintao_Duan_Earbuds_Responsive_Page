@@ -31,7 +31,6 @@
             pin: true,
             scrub: 3,
             start: "top top",
-            markers: true
         },
         // everytime you use scroll
         onUpdate: render
@@ -40,8 +39,6 @@
     images[0].addEventListener("onload", render);
 
     function render() {
-        // console.log(buds.frame);
-        // console.log(images[buds.frame]);
         context.clearRect(0, 0, canvas.width, canvas.height);
         context.drawImage(images[buds.frame], 0, 0);
     }
@@ -123,11 +120,5 @@
     hotspot.addEventListener("mouseover", showInfo);
     hotspot.addEventListener("mouseout", hideInfo);
   });
-
-
-  function scrollToSection(sectionId) {
-        gsap.to(window, { duration: 1, scrollTo: sectionId });
-    }
-
 
 })();
