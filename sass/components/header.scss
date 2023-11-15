@@ -1,70 +1,75 @@
-html {
-    scroll-behavior: smooth;
-  }
-  
-  :not(:defined) > * {
-    display: none;
-  }
-  
-  .hidden {display: none;}
-  
-  ul li {
-      list-style: none;
-  }
-  
-  ul li a {
-      text-decoration: none;
-      color: white;
-  }
-  
-  nav{
-      background-color: #9d3232;
-  }
-  
-  nav ul li {margin-top: 15px; }
-  #header-logo {
-      height: 45px;
-      width: 45px;
-      margin-top: 15px;
-      margin-left: 10px;
-  }
-  
-  .main-nav { display: none;}
-  
-  
-  #ham-menu {
-      width: 40px;
-      margin-left: 30px;
-      margin-top: 15px;
-  }
-  
-  
-  #main-con {background-color: #292929;}
-  
-  #main-header {
-      background-color: #E30000;
-      height: 80px;
-  }
+#header-logo {
+    height: 55px;
+    width: 55px;
+    margin-top: 10px;
+    margin-left: 10px;
+    transition: transform 250ms;
+}
 
+#header-logo:hover {
+  transform: translateY(-10px);
+}
+
+#main-nav ul{
+  display: flex;
+  text-align: center;
+  
+}
+
+#main-nav ul li {
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+}
+
+#main-nav ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 15px;
+  margin-left: 40px;
+  font-style: oblique;
+  transition: ease-in-out 0.3s;
+}
+
+#main-nav ul li a:hover {
+  color: #000000;
+}
+
+#main-con {background-color: #292929;}
+
+#main-header {
+    background-color: #E30000;
+    height: 80px;
+}
   @media screen and (min-width: 768px){
-    h2 {font-size: 40px;}
-    #main-header {
-        height: 130px;
-    }
-
-    #header-logo {
-        height: 65px;
-        width: 65px;
-        margin-top: 28px;
-        margin-left: 20px;
-    }
-    
-    #ham-menu {
-        width: 40px;
-        margin-left: 30px;
-        margin-top: 15px;
-    }
-    
-    #ham-menu{display: none;}
+    h2 {
+        font-size: 40px;
+      }
+    /*header*/
+      #main-header {
+          height: 130px;
+      }
+  
+      #header-logo {
+          height: 80px;
+          width: 80px;
+          margin-top: 18px;
+          margin-left: 30px;
+      }
+  
+      #main-nav ul{
+        padding-left: 230px;
+        
+      }
+      
+      #main-nav ul li a {
+        margin-top: 30px;
+        font-size: 25px;
+        margin-left: 40px;
+        padding-left: 100px;
+      }
 
 }

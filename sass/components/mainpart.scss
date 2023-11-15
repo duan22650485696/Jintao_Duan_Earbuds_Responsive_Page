@@ -1,45 +1,57 @@
-#banner-con {margin-bottom: 70px;}
-  
-  /* buttons */
-  
-  .button{
-      background-color: #E30000; 
-      height: 35px;
-      text-align: center;
-      padding-top: 8px;
-  }
-  
-  .button a {
-      text-decoration: none;
-      color: white;
-      font-size: 10px;
-      cursor: pointer;
-  }
-  
-  
-  #earbuds-tittle {
-      margin-top: 40px;
-  }
-  
-  .ear-img-con {
-      margin-top: 80px;
-  }
-  
-  h2 {
-      text-align: center;
-      margin-top: 80px;
-      color: white;
-  }
-  
-  #earbuds-xry-img {margin-top: 60px;}
-  
-  #outerShell {display: none;}
-  
-  #earbuds-brand-img{
-      margin-top: 60px;
-      margin-bottom: 60px;
-      text-align: center;
-  }
+ /* buttons */ 
+ 
+.button{
+  background-color: #E30000; 
+  height: 35px;
+  text-align: center;
+  padding-top: 6px;
+  margin-top: 60px;
+  border-radius: 8px;
+  transition: 0.5s;
+}
+
+.button a {
+  text-decoration: none;
+  color: white;
+  font-size: 10px;
+}
+
+.button:hover {
+background-color: #000000;
+color: #E30000;
+transform: scale(1.2);
+}
+
+#earbuds-tittle {
+  margin-top: 40px;
+}
+
+.ear-img-con {
+  margin-top: 80px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 60px;
+  color: white;
+  line-height: 2em;
+  transition: ease 0.4s;
+}
+
+h2:hover {
+color: #E30000;
+}
+
+#earbuds-xry-img {
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+#earbuds-brand-img{
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-align: center;
+}
 
 
   @media screen and (min-width: 768px){
