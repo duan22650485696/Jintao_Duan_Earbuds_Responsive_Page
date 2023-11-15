@@ -149,12 +149,15 @@ h2 {
   width: 30px;
 }
 
-
 #footer-logo{
     height: 60px;
     width: 60px;
-    text-align: center;
-    
+    text-align: center;  
+}
+
+footer p {
+  margin-top: 25px;
+  font-size: 10px;
 }
 
 /* 3D viewer */
@@ -436,6 +439,12 @@ model-viewer > #ar-prompt > img {
     #footer-logo {
         height: 70px;
         width: 70px;
+    }
+
+    footer p {
+      margin-top: 30px;
+      font-size: 15px;
+      margin-left: 40px;
     }
    
 }
