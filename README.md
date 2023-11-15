@@ -17,7 +17,7 @@ updated 3D earbuds viewer, 3D animation, promotional images by JS CSS SASS and H
 
 2023 11-13 10:30 fixed xray container height problem
 
-2023 11-13 10:30 fixed some bugs and added some hover effects on menu, added socila media iocns on footer
+2023 11-13 20:35 fixed some bugs and added some hover effects on menu, added socila media iocns on footer
 
 # Version
 
