@@ -19,6 +19,8 @@ updated 3D earbuds viewer, 3D animation, promotional images by JS CSS SASS and H
 
 2023 11-13 20:35 fixed some bugs and added some hover effects on menu, added socila media iocns on footer
 
+2023 11-13 11:50 updated down arrows and footer content
+
 # Version
 
 V1.0 2023-11-5
